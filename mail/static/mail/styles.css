@@ -1,0 +1,44 @@
+textarea {
+    min-height: 400px;
+}
+
+form > label{
+    text-align: left;
+}
+
+input[type=submit]{
+    width: 100%;
+    margin: 1rem 0;
+}
+
+
+.border-div{
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inline-div > *{
+    display: inline;
+    padding: 0 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .inline-div > *{
+        display: inline-block;
+    }   
+}
+
+.gray-bg{
+    background-color: rgb(230, 230, 230);
+}
+
+.blue-bg{
+    background-color: blue;
+}
